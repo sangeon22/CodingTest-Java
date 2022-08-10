@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Java1020 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] a = scanner.next().split("\\.");
+        String[] a = scanner.next().split("\\-");
         scanner.close();
 
-        int y = Integer.parseInt(a[0]);
-        int m = Integer.parseInt(a[1]);
-        int d = Integer.parseInt(a[2]);
+        int x = Integer.parseInt(a[0]);
+        int y = Integer.parseInt(a[1]);
 
-        System.out.printf("%04d.%02d.%02d", y, m, d);
+        System.out.printf("%06d%06d", x, y);
     }
 }
