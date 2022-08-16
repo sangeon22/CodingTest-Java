@@ -2,12 +2,12 @@ package 코드업.코드업기초2;
 
 import java.util.Scanner;
 
-public class Java2030 {
+public class Java1033 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long l = scanner.nextLong();
+        int i = scanner.nextInt();
         scanner.close();
 
-        System.out.printf("%d", l);
+        System.out.printf("%X", i);
     }
 }

@@ -2,7 +2,7 @@ package 코드업.코드업기초2;
 
 import java.util.Scanner;
 
-public class Java2028 {
+public class Java1028 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long i = scanner.nextLong();
