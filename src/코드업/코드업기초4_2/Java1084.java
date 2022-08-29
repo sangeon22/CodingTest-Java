@@ -31,8 +31,7 @@ public class Java1084 {
             }
         }
         bw.write(String.valueOf(total));
-        bw.flush();
-
+        bw.close();
 //        Scanner scanner = new Scanner(System.in);
 //        int a = scanner.nextInt();
 //        int b = scanner.nextInt();
